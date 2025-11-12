@@ -42,7 +42,7 @@ def run_asistance():
     today=date.today()
     print("today date",today)
    elif command == 6:
-    api_key = "74eda551c03aca5012fce51cdb641e7b"
+    api_key = "74eda551c045aca5012fce51cdb641e7b"
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     city_name = input("Enter city name : ")
     complete_url = base_url + "appid=" + api_key + "&q=" + city_name
